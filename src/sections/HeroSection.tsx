@@ -1,7 +1,6 @@
 'use client';
 import { TypeAnimation } from 'react-type-animation';
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
-import { BiLogoPostgresql } from 'react-icons/bi';
 import Marquee from 'react-fast-marquee';
 import { motion } from 'framer-motion';
 import ronitImage from '@/media/aku.png';
@@ -28,7 +27,7 @@ import { siteConfig, siteUrls, skills as siteSkills } from '@/data/site-config';
 import { IconType } from 'react-icons';
 
 // Map icon names from config to actual icon components
-export const iconMap = {
+export const iconMap: Record<string, IconType> = {
   SiHtml5,
   SiCss3,
   SiJavascript,

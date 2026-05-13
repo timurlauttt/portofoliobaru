@@ -13,7 +13,6 @@ import {
   SiBootstrap,
   SiTailwindcss,
 } from 'react-icons/si';
-import { IconType } from 'react-icons';
 import { skills as siteSkills } from '@/data/site-config';
 
 // Map icon names from config to actual icon components

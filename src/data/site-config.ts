@@ -30,10 +30,7 @@ export const siteConfig = {
   email: 'irip.yoga@gmail.com',
 
   /** Greeting sequence for the hero typing animation ([text, delay, text, delay, ...]) */
-  greetings: ['Halo', 1000, 'Hello!', 1000, 'Hola!', 1000, 'Bonjour!', 1000] as (
-    | string
-    | number
-  )[],
+  greetings: ['Halo', 1000, 'Hello!', 1000, 'Hola!', 1000, 'Bonjour!', 1000] as (string | number)[],
 };
 
 // ---------------------
@@ -50,7 +47,7 @@ export const siteUrls = {
   /** Your LinkedIn profile URL */
   linkedin: 'https://www.linkedin.com/in/urip-yoga-pangestu-65a541231/',
 
-  email : 'mailto:irip.yoga@gmail.com',
+  email: 'mailto:irip.yoga@gmail.com',
 
   /** Your Twitter/X handle (with @) — used in SEO meta tags */
   twitterHandle: '@__timurlauttt',
@@ -133,7 +130,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     title: 'lowcosthost.id',
-    description:  
+    description:
       'This is my start-up project with my friends—a start-up operating in the shared hosting sector that enables people from all backgrounds, especially students, to deploy their projects at an affordable price while maintaining security',
     tech: ['Openlayers', 'Next.js', 'TypeScript', 'Tailwind CSS'],
     github: 'https://github.com/ronitjadhav/digipin-openlayers',
@@ -141,16 +138,34 @@ export const projects: Project[] = [
     image: 'digipin.jpeg',
   },
   {
-    title: 'QGIS Hub Plugin',
+    title: 'Blog Portfolio',
     description:
-      'Developed at Camptocamp with help from Ismail Sunni, this plugin allows QGIS users to easily browse and add resources from the QGIS Hub directly into their projects. It supports grid and list views, search, and filtering by resource type.',
-    tech: ['Python', 'Qt', 'QGIS'],
-    github: 'https://github.com/qgis/QGIS-Hub-Plugin',
-    live: 'https://plugins.qgis.org/plugins/qgis_hub_plugin/',
+      'A personal blog and portfolio website built with Next.js and TypeScript, showcasing my writing and projects.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    github: 'https://github.com/ronitjadhav/blog-portfolio',
+    live: 'https://your-blog-portfolio.com/',
     image: 'QGIS-Banner.jpg',
   },
   {
-    title: 'Openlayers Benchmark',
+    title: 'Capstone Project',
+    description:
+      'Developed at Camptocamp as part of my internship, this project helps to benchmark the performance of WebGL and Canvas rendering in Openlayers. It includes a variety of tests and visualizations to compare the rendering speed of different layers.',
+    tech: ['Openlayers', 'TypeScript'],
+    github: 'https://github.com/openlayers/bench',
+    live: 'https://openlayers.org/bench/',
+    image: 'olBench.png',
+  },
+  {
+    title: 'E-Learning Website',
+    description:
+      'Developed at Camptocamp as part of my internship, this project helps to benchmark the performance of WebGL and Canvas rendering in Openlayers. It includes a variety of tests and visualizations to compare the rendering speed of different layers.',
+    tech: ['Openlayers', 'TypeScript'],
+    github: 'https://github.com/openlayers/bench',
+    live: 'https://openlayers.org/bench/',
+    image: 'olBench.png',
+  },
+  {
+    title: 'SMK Tamansiswa Purwokerto Website Profile Company',
     description:
       'Developed at Camptocamp as part of my internship, this project helps to benchmark the performance of WebGL and Canvas rendering in Openlayers. It includes a variety of tests and visualizations to compare the rendering speed of different layers.',
     tech: ['Openlayers', 'TypeScript'],
@@ -266,7 +281,6 @@ export const seoConfig = {
     'Next.js',
     'Node.js',
     'Python',
-
   ],
 
   /** Open Graph image URL (absolute URL) */
